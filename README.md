@@ -14,25 +14,6 @@ Generate safe, manual test hypotheses
 
 Reduce noise during VAPT and bug bounty testing
 
-🏗️ Architecture Overview
-Pipeline Flow:
-
-Burp XML Export
-      ↓
-n8n Webhook
-      ↓
-XML → JSON Conversion
-      ↓
-Request Normalization (JS)
-      ↓
-Rule-Based Security Triage
-      ↓
-AI VAPT Analyzer Agent
-      ↓
-AI Report Generator
-Key design principle:
-
-Rules first. AI second. Reports last.
 
 🔧 Tech Stack
 Burp Suite – HTTP traffic capture
